@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, TextInput, Image, Dimensions } from 'react-native';
+import { StyleSheet, Text, View, TextInput, Image, Dimensions, TouchableOpacity } from 'react-native';
 import Background from './../components/Background';
 
 
@@ -30,11 +30,13 @@ export default class SignUp extends React.Component {
           <TextInput style = {styles.textInput}></TextInput>
           <View style = {styles.textLine}/>
         </View>
-        <View>
+        <TouchableOpacity onPress={this.search}>
           <View style = {styles.goRect}/>
           <Text style = {styles.goText}>Go!</Text>
-        </View> 
-        <Text style = {styles.logInText}>or Log In ></Text>
+        </TouchableOpacity>
+        <TouchableOpacity onPress={this.search}>
+          <Text style = {styles.logInText}>or Log In ></Text>
+        </TouchableOpacity>
       </View>
       
     </View>
