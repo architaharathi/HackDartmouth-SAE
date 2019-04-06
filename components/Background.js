@@ -23,7 +23,6 @@ const styles = StyleSheet.create({
   RectangleShapeViewBlue: {
     width: Dimensions.get("screen").width*0.8,
     height: Dimensions.get("screen").height*1.1,
-    borderRadius: 2,
     transform:([{ rotateZ:'30deg'}]),
     backgroundColor: 'rgba(153, 217, 253, 0.5)',
     position: 'absolute',
@@ -31,7 +30,6 @@ const styles = StyleSheet.create({
   RectangleShapeViewGreen: {
     width: Dimensions.get("screen").width*0.8,
     height: Dimensions.get("screen").height*1.1,
-    borderRadius: 2,
     transform:([{ rotateZ:'-70deg'}]),
     backgroundColor: 'rgba(89, 156, 103, 0.5)',
     position: 'absolute',
@@ -39,7 +37,6 @@ const styles = StyleSheet.create({
   RectangleShapeViewYellow: {
     width: Dimensions.get("screen").width*0.8,
     height: Dimensions.get("screen").height*1.1,
-    borderRadius: 2,
     transform:([{ rotateZ:'70deg'}]),
     backgroundColor: 'rgba(252, 247, 130, 0.5)',
     position: 'absolute',
