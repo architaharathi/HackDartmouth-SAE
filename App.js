@@ -2,12 +2,13 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Welcome from './screens/Welcome/';
 import SignUp from './screens/SignUp';
+import LogIn from './screens/LogIn';
 
 export default class App extends React.Component {
   render() {
     return (
       <View>
-        <SignUp/>
+        <LogIn/>
       </View>
     );
   }
